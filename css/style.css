@@ -76,13 +76,13 @@ header {
 .navbar-brand{
 	color: white !important;
 	padding: 0px 0px 0px 20px;
-	font-size: 135% !important;
+	font-size: 120% !important;
 	font-family: 'Actor';
-	margin-top: 7px;
 }
 
 .navbar-nav {
-    display: flex;
+    margin-top: 10px;
+	display: flex;
     flex-direction: column;
 	margin-right: 20px;
 	align-items: center;
@@ -110,6 +110,10 @@ header {
 .current_link a{
 	color: rgba(136, 17, 43, 0.927) !important;
 	text-decoration: none;
+}
+
+.navbar-toggler {
+	padding-left: 0px !important;
 }
 
 
@@ -369,6 +373,13 @@ div p {
 		justify-items: center;
 		overflow: hidden;
 	}
+	.navbar-brand{
+		color: white !important;
+		padding: 0px 0px 0px 20px;
+		font-size: 135% !important;
+		font-family: 'Actor';
+	}
+	
 
 }
 
@@ -384,10 +395,16 @@ div p {
 		z-index: 300;
     }
 
+	.navbar-brand{
+		color: white !important;
+		padding: 0px 0px 0px 20px;
+		font-size: 135% !important;
+		font-family: 'Actor';
+	}
+
 
     #collapsibleNavbar {
         display: flex;
-		position: sticky;
         flex-direction: row;
         justify-content: flex-end;
         align-items: center;
@@ -401,6 +418,17 @@ div p {
 		border-radius:10px;
 		border:0;
 	}
+	.navbar-nav {
+		margin-top: 0px;
+		display: flex;
+		flex-direction: column;
+		margin-right: 20px;
+		align-items: center;
+		font-size: 125%;
+		font-family: 'Actor';
+	}
+
+
 }
 
 
@@ -415,10 +443,19 @@ div p {
 		z-index: 300;
     }
 
+	.navbar-nav {
+		margin-top: 0px;
+		display: flex;
+		flex-direction: column;
+		margin-right: 20px;
+		align-items: center;
+		font-size: 125%;
+		font-family: 'Actor';
+	}
+
 
     #collapsibleNavbar {
         display: flex;
-		position: sticky;
         flex-direction: row;
         justify-content: flex-end;
         align-items: center;
@@ -447,6 +484,13 @@ div p {
 		height: 350px;
 		border-radius:10px;
 		border:0;
+	}
+
+	.navbar-brand{
+		color: white !important;
+		padding: 0px 0px 0px 20px;
+		font-size: 135% !important;
+		font-family: 'Actor';
 	}
 }
 
